@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Monsterfillup">
+
+    <ImageView
+        android:id="@+id/theMon1"
+        android:layout_width="87dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/testone"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <ImageView
+        android:id="@+id/theMon2"
+        android:layout_width="87dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/testone"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <ImageView
+        android:id="@+id/theMon3"
+        android:layout_width="87dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/testone"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <ImageView
+        android:id="@+id/theMon4"
+        android:layout_width="87dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/testone"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/theMon5"
+        android:layout_width="87dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/testone"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

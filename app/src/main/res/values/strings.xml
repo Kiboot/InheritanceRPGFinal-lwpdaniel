@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InheritanceRPGFinal</string>
+
+    <string-array name="Class">
+        <item>Class</item>
+        <item>Bringer</item>
+        <item>Celestial</item>
+        <item>God-King</item>
+        <item>Death</item>
+        <item>Ancient</item>
+    </string-array>
+</resources>
