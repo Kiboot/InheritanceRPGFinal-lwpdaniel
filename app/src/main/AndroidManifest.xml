@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Herores"></activity>
+        <activity android:name=".Monsterres"></activity>
+        <activity android:name=".Herores" />
         <activity android:name=".Choosehere" />
         <activity android:name=".Herofillup" />
         <activity android:name=".Monsterfillup" />

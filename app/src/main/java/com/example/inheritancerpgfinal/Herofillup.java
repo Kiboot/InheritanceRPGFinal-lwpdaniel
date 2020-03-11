@@ -192,38 +192,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(dawnbringer.intGrowthwLvl());
 
 
-                Intent insub1 = new Intent(Herofillup.this, Herores.class);
-                insub1.putExtra("baseHPres", ibaseHP);
-                insub1.putExtra("baseMPres", ibaseMP);
-                insub1.putExtra("pAtkres", ipAtk);
-                insub1.putExtra("pDefres", ipDef);
-                insub1.putExtra("mAtkres", imAtk);
-                insub1.putExtra("mDefres", imDef);
-                insub1.putExtra("heroClassres", iheroClass);
-                insub1.putExtra("heroXPres", iheroXP);
-                insub1.putExtra("baseSTRres", ibaseSTR);
-                insub1.putExtra("baseAGIres", ibaseAGI);
-                insub1.putExtra("baseINTres", ibaseINT);
-                insub1.putExtra("levelres", leveler);
-                insub1.putExtra("nameres", namer);
-                startActivity(insub1);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub1 = new Intent(Herofillup.this, Herores.class);
+                    insub1.putExtra("baseHPres", ibaseHP);
+                    insub1.putExtra("baseMPres", ibaseMP);
+                    insub1.putExtra("pAtkres", ipAtk);
+                    insub1.putExtra("pDefres", ipDef);
+                    insub1.putExtra("mAtkres", imAtk);
+                    insub1.putExtra("mDefres", imDef);
+                    insub1.putExtra("heroClassres", iheroClass);
+                    insub1.putExtra("heroXPres", iheroXP);
+                    insub1.putExtra("baseSTRres", ibaseSTR);
+                    insub1.putExtra("baseAGIres", ibaseAGI);
+                    insub1.putExtra("baseINTres", ibaseINT);
+                    insub1.putExtra("levelres", leveler);
+                    insub1.putExtra("nameres", namer);
+                    startActivity(insub1);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -271,38 +255,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(nightbringer.intGrowthwLvl());
 
 
-                Intent insub2 = new Intent(Herofillup.this, Herores.class);
-                insub2.putExtra("baseHPres", ibaseHP);
-                insub2.putExtra("baseMPres", ibaseMP);
-                insub2.putExtra("pAtkres", ipAtk);
-                insub2.putExtra("pDefres", ipDef);
-                insub2.putExtra("mAtkres", imAtk);
-                insub2.putExtra("mDefres", imDef);
-                insub2.putExtra("heroClassres", iheroClass);
-                insub2.putExtra("heroXPres", iheroXP);
-                insub2.putExtra("baseSTRres", ibaseSTR);
-                insub2.putExtra("baseAGIres", ibaseAGI);
-                insub2.putExtra("baseINTres", ibaseINT);
-                insub2.putExtra("levelres", leveler);
-                insub2.putExtra("nameres", namer);
-                startActivity(insub2);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub2 = new Intent(Herofillup.this, Herores.class);
+                    insub2.putExtra("baseHPres", ibaseHP);
+                    insub2.putExtra("baseMPres", ibaseMP);
+                    insub2.putExtra("pAtkres", ipAtk);
+                    insub2.putExtra("pDefres", ipDef);
+                    insub2.putExtra("mAtkres", imAtk);
+                    insub2.putExtra("mDefres", imDef);
+                    insub2.putExtra("heroClassres", iheroClass);
+                    insub2.putExtra("heroXPres", iheroXP);
+                    insub2.putExtra("baseSTRres", ibaseSTR);
+                    insub2.putExtra("baseAGIres", ibaseAGI);
+                    insub2.putExtra("baseINTres", ibaseINT);
+                    insub2.putExtra("levelres", leveler);
+                    insub2.putExtra("nameres", namer);
+                    startActivity(insub2);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -349,39 +317,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(darkstar.agiGrowthwLvl());
                 ibaseINT = String.valueOf(darkstar.intGrowthwLvl());
 
-
-                Intent insub3 = new Intent(Herofillup.this, Herores.class);
-                insub3.putExtra("baseHPres", ibaseHP);
-                insub3.putExtra("baseMPres", ibaseMP);
-                insub3.putExtra("pAtkres", ipAtk);
-                insub3.putExtra("pDefres", ipDef);
-                insub3.putExtra("mAtkres", imAtk);
-                insub3.putExtra("mDefres", imDef);
-                insub3.putExtra("heroClassres", iheroClass);
-                insub3.putExtra("heroXPres", iheroXP);
-                insub3.putExtra("baseSTRres", ibaseSTR);
-                insub3.putExtra("baseAGIres", ibaseAGI);
-                insub3.putExtra("baseINTres", ibaseINT);
-                insub3.putExtra("levelres", leveler);
-                insub3.putExtra("nameres", namer);
-                startActivity(insub3);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub3 = new Intent(Herofillup.this, Herores.class);
+                    insub3.putExtra("baseHPres", ibaseHP);
+                    insub3.putExtra("baseMPres", ibaseMP);
+                    insub3.putExtra("pAtkres", ipAtk);
+                    insub3.putExtra("pDefres", ipDef);
+                    insub3.putExtra("mAtkres", imAtk);
+                    insub3.putExtra("mDefres", imDef);
+                    insub3.putExtra("heroClassres", iheroClass);
+                    insub3.putExtra("heroXPres", iheroXP);
+                    insub3.putExtra("baseSTRres", ibaseSTR);
+                    insub3.putExtra("baseAGIres", ibaseAGI);
+                    insub3.putExtra("baseINTres", ibaseINT);
+                    insub3.putExtra("levelres", leveler);
+                    insub3.putExtra("nameres", namer);
+                    startActivity(insub3);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -427,39 +378,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(cosmic.agiGrowthwLvl());
                 ibaseINT = String.valueOf(cosmic.intGrowthwLvl());
 
-
-                Intent insub4 = new Intent(Herofillup.this, Herores.class);
-                insub4.putExtra("baseHPres", ibaseHP);
-                insub4.putExtra("baseMPres", ibaseMP);
-                insub4.putExtra("pAtkres", ipAtk);
-                insub4.putExtra("pDefres", ipDef);
-                insub4.putExtra("mAtkres", imAtk);
-                insub4.putExtra("mDefres", imDef);
-                insub4.putExtra("heroClassres", iheroClass);
-                insub4.putExtra("heroXPres", iheroXP);
-                insub4.putExtra("baseSTRres", ibaseSTR);
-                insub4.putExtra("baseAGIres", ibaseAGI);
-                insub4.putExtra("baseINTres", ibaseINT);
-                insub4.putExtra("levelres", leveler);
-                insub4.putExtra("nameres", namer);
-                startActivity(insub4);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub4 = new Intent(Herofillup.this, Herores.class);
+                    insub4.putExtra("baseHPres", ibaseHP);
+                    insub4.putExtra("baseMPres", ibaseMP);
+                    insub4.putExtra("pAtkres", ipAtk);
+                    insub4.putExtra("pDefres", ipDef);
+                    insub4.putExtra("mAtkres", imAtk);
+                    insub4.putExtra("mDefres", imDef);
+                    insub4.putExtra("heroClassres", iheroClass);
+                    insub4.putExtra("heroXPres", iheroXP);
+                    insub4.putExtra("baseSTRres", ibaseSTR);
+                    insub4.putExtra("baseAGIres", ibaseAGI);
+                    insub4.putExtra("baseINTres", ibaseINT);
+                    insub4.putExtra("levelres", leveler);
+                    insub4.putExtra("nameres", namer);
+                    startActivity(insub4);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -505,39 +439,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(chaos.agiGrowthwLvl());
                 ibaseINT = String.valueOf(chaos.intGrowthwLvl());
 
-
-                Intent insub5 = new Intent(Herofillup.this, Herores.class);
-                insub5.putExtra("baseHPres", ibaseHP);
-                insub5.putExtra("baseMPres", ibaseMP);
-                insub5.putExtra("pAtkres", ipAtk);
-                insub5.putExtra("pDefres", ipDef);
-                insub5.putExtra("mAtkres", imAtk);
-                insub5.putExtra("mDefres", imDef);
-                insub5.putExtra("heroClassres", iheroClass);
-                insub5.putExtra("heroXPres", iheroXP);
-                insub5.putExtra("baseSTRres", ibaseSTR);
-                insub5.putExtra("baseAGIres", ibaseAGI);
-                insub5.putExtra("baseINTres", ibaseINT);
-                insub5.putExtra("levelres", leveler);
-                insub5.putExtra("nameres", namer);
-                startActivity(insub5);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub5 = new Intent(Herofillup.this, Herores.class);
+                    insub5.putExtra("baseHPres", ibaseHP);
+                    insub5.putExtra("baseMPres", ibaseMP);
+                    insub5.putExtra("pAtkres", ipAtk);
+                    insub5.putExtra("pDefres", ipDef);
+                    insub5.putExtra("mAtkres", imAtk);
+                    insub5.putExtra("mDefres", imDef);
+                    insub5.putExtra("heroClassres", iheroClass);
+                    insub5.putExtra("heroXPres", iheroXP);
+                    insub5.putExtra("baseSTRres", ibaseSTR);
+                    insub5.putExtra("baseAGIres", ibaseAGI);
+                    insub5.putExtra("baseINTres", ibaseINT);
+                    insub5.putExtra("levelres", leveler);
+                    insub5.putExtra("nameres", namer);
+                    startActivity(insub5);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -583,39 +500,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(orders.agiGrowthwLvl());
                 ibaseINT = String.valueOf(orders.intGrowthwLvl());
 
-
-                Intent insub6 = new Intent(Herofillup.this, Herores.class);
-                insub6.putExtra("baseHPres", ibaseHP);
-                insub6.putExtra("baseMPres", ibaseMP);
-                insub6.putExtra("pAtkres", ipAtk);
-                insub6.putExtra("pDefres", ipDef);
-                insub6.putExtra("mAtkres", imAtk);
-                insub6.putExtra("mDefres", imDef);
-                insub6.putExtra("heroClassres", iheroClass);
-                insub6.putExtra("heroXPres", iheroXP);
-                insub6.putExtra("baseSTRres", ibaseSTR);
-                insub6.putExtra("baseAGIres", ibaseAGI);
-                insub6.putExtra("baseINTres", ibaseINT);
-                insub6.putExtra("levelres", leveler);
-                insub6.putExtra("nameres", namer);
-                startActivity(insub6);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub6 = new Intent(Herofillup.this, Herores.class);
+                    insub6.putExtra("baseHPres", ibaseHP);
+                    insub6.putExtra("baseMPres", ibaseMP);
+                    insub6.putExtra("pAtkres", ipAtk);
+                    insub6.putExtra("pDefres", ipDef);
+                    insub6.putExtra("mAtkres", imAtk);
+                    insub6.putExtra("mDefres", imDef);
+                    insub6.putExtra("heroClassres", iheroClass);
+                    insub6.putExtra("heroXPres", iheroXP);
+                    insub6.putExtra("baseSTRres", ibaseSTR);
+                    insub6.putExtra("baseAGIres", ibaseAGI);
+                    insub6.putExtra("baseINTres", ibaseINT);
+                    insub6.putExtra("levelres", leveler);
+                    insub6.putExtra("nameres", namer);
+                    startActivity(insub6);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -661,39 +561,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(blossom.agiGrowthwLvl());
                 ibaseINT = String.valueOf(blossom.intGrowthwLvl());
 
-
-                Intent insub7 = new Intent(Herofillup.this, Herores.class);
-                insub7.putExtra("baseHPres", ibaseHP);
-                insub7.putExtra("baseMPres", ibaseMP);
-                insub7.putExtra("pAtkres", ipAtk);
-                insub7.putExtra("pDefres", ipDef);
-                insub7.putExtra("mAtkres", imAtk);
-                insub7.putExtra("mDefres", imDef);
-                insub7.putExtra("heroClassres", iheroClass);
-                insub7.putExtra("heroXPres", iheroXP);
-                insub7.putExtra("baseSTRres", ibaseSTR);
-                insub7.putExtra("baseAGIres", ibaseAGI);
-                insub7.putExtra("baseINTres", ibaseINT);
-                insub7.putExtra("levelres", leveler);
-                insub7.putExtra("nameres", namer);
-                startActivity(insub7);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub7 = new Intent(Herofillup.this, Herores.class);
+                    insub7.putExtra("baseHPres", ibaseHP);
+                    insub7.putExtra("baseMPres", ibaseMP);
+                    insub7.putExtra("pAtkres", ipAtk);
+                    insub7.putExtra("pDefres", ipDef);
+                    insub7.putExtra("mAtkres", imAtk);
+                    insub7.putExtra("mDefres", imDef);
+                    insub7.putExtra("heroClassres", iheroClass);
+                    insub7.putExtra("heroXPres", iheroXP);
+                    insub7.putExtra("baseSTRres", ibaseSTR);
+                    insub7.putExtra("baseAGIres", ibaseAGI);
+                    insub7.putExtra("baseINTres", ibaseINT);
+                    insub7.putExtra("levelres", leveler);
+                    insub7.putExtra("nameres", namer);
+                    startActivity(insub7);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -739,39 +622,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(sworn.agiGrowthwLvl());
                 ibaseINT = String.valueOf(sworn.intGrowthwLvl());
 
-
-                Intent insub8 = new Intent(Herofillup.this, Herores.class);
-                insub8.putExtra("baseHPres", ibaseHP);
-                insub8.putExtra("baseMPres", ibaseMP);
-                insub8.putExtra("pAtkres", ipAtk);
-                insub8.putExtra("pDefres", ipDef);
-                insub8.putExtra("mAtkres", imAtk);
-                insub8.putExtra("mDefres", imDef);
-                insub8.putExtra("heroClassres", iheroClass);
-                insub8.putExtra("heroXPres", iheroXP);
-                insub8.putExtra("baseSTRres", ibaseSTR);
-                insub8.putExtra("baseAGIres", ibaseAGI);
-                insub8.putExtra("baseINTres", ibaseINT);
-                insub8.putExtra("levelres", leveler);
-                insub8.putExtra("nameres", namer);
-                startActivity(insub8);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub8 = new Intent(Herofillup.this, Herores.class);
+                    insub8.putExtra("baseHPres", ibaseHP);
+                    insub8.putExtra("baseMPres", ibaseMP);
+                    insub8.putExtra("pAtkres", ipAtk);
+                    insub8.putExtra("pDefres", ipDef);
+                    insub8.putExtra("mAtkres", imAtk);
+                    insub8.putExtra("mDefres", imDef);
+                    insub8.putExtra("heroClassres", iheroClass);
+                    insub8.putExtra("heroXPres", iheroXP);
+                    insub8.putExtra("baseSTRres", ibaseSTR);
+                    insub8.putExtra("baseAGIres", ibaseAGI);
+                    insub8.putExtra("baseINTres", ibaseINT);
+                    insub8.putExtra("levelres", leveler);
+                    insub8.putExtra("nameres", namer);
+                    startActivity(insub8);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -817,39 +683,22 @@ public class Herofillup extends AppCompatActivity {
                 ibaseAGI = String.valueOf(bloodmoon.agiGrowthwLvl());
                 ibaseINT = String.valueOf(bloodmoon.intGrowthwLvl());
 
-
-                Intent insub9 = new Intent(Herofillup.this, Herores.class);
-                insub9.putExtra("baseHPres", ibaseHP);
-                insub9.putExtra("baseMPres", ibaseMP);
-                insub9.putExtra("pAtkres", ipAtk);
-                insub9.putExtra("pDefres", ipDef);
-                insub9.putExtra("mAtkres", imAtk);
-                insub9.putExtra("mDefres", imDef);
-                insub9.putExtra("heroClassres", iheroClass);
-                insub9.putExtra("heroXPres", iheroXP);
-                insub9.putExtra("baseSTRres", ibaseSTR);
-                insub9.putExtra("baseAGIres", ibaseAGI);
-                insub9.putExtra("baseINTres", ibaseINT);
-                insub9.putExtra("levelres", leveler);
-                insub9.putExtra("nameres", namer);
-                startActivity(insub9);
-
-                if(leveler<=99 || leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
-                    insub10.putExtra("baseHPres", ibaseHP);
-                    insub10.putExtra("baseMPres", ibaseMP);
-                    insub10.putExtra("pAtkres", ipAtk);
-                    insub10.putExtra("pDefres", ipDef);
-                    insub10.putExtra("mAtkres", imAtk);
-                    insub10.putExtra("mDefres", imDef);
-                    insub10.putExtra("heroClassres", iheroClass);
-                    insub10.putExtra("heroXPres", iheroXP);
-                    insub10.putExtra("baseSTRres", ibaseSTR);
-                    insub10.putExtra("baseAGIres", ibaseAGI);
-                    insub10.putExtra("baseINTres", ibaseINT);
-                    insub10.putExtra("levelres", leveler);
-                    insub10.putExtra("nameres", namer);
-                    startActivity(insub10);
+                if(leveler<=99 && leveler>=1) {
+                    Intent insub9 = new Intent(Herofillup.this, Herores.class);
+                    insub9.putExtra("baseHPres", ibaseHP);
+                    insub9.putExtra("baseMPres", ibaseMP);
+                    insub9.putExtra("pAtkres", ipAtk);
+                    insub9.putExtra("pDefres", ipDef);
+                    insub9.putExtra("mAtkres", imAtk);
+                    insub9.putExtra("mDefres", imDef);
+                    insub9.putExtra("heroClassres", iheroClass);
+                    insub9.putExtra("heroXPres", iheroXP);
+                    insub9.putExtra("baseSTRres", ibaseSTR);
+                    insub9.putExtra("baseAGIres", ibaseAGI);
+                    insub9.putExtra("baseINTres", ibaseINT);
+                    insub9.putExtra("levelres", leveler);
+                    insub9.putExtra("nameres", namer);
+                    startActivity(insub9);
                 }
                 else if(leveler>=100) {
                     Toast.makeText(Herofillup.this, "Limit level is 99", Toast.LENGTH_SHORT).show();
@@ -897,8 +746,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(arclight.intGrowthwLvl());
 
 
-                if(leveler<=99 || leveler>=1) {
-
+                if(leveler<=99 && leveler>=1) {
                     Intent insub10 = new Intent(Herofillup.this, Herores.class);
                     insub10.putExtra("baseHPres", ibaseHP);
                     insub10.putExtra("baseMPres", ibaseMP);
