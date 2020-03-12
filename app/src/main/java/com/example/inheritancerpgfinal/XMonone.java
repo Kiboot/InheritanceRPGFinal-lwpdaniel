@@ -5,20 +5,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Monsterres extends AppCompatActivity {
+import android.widget.ImageView;
+
+public class XMonone extends AppCompatActivity {
 
     String yesmHp, yesmMp, yesmPhysdmg, yesmMgcdmg, yesmPhysdef, yesmMgcdef, yesmName, yesmLevel, yesmDes;
 
     TextView samLevel, samHp, samMp, samPhysdmg, samMgcdmg, samPhysdef, samMgcdef,samName, samDes;
-    TextView inmLevel, inmHp, inmMp, inmPhysdmg, inmMgcdmg, inmPhysdef, inmMgcdef;
+    TextView inmHp, inmMp, inmPhysdmg, inmMgcdmg, inmPhysdef, inmMgcdef;
+
+    ImageView onemonpic;
+
+    ImageView s1, s2, s3, s4, s5, s6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_monsterres);
+        setContentView(R.layout.activity_x_monone);
 
         //Indicator Textview
-        inmLevel = findViewById(R.id.teLevel);
         inmHp = findViewById(R.id.teHP);
         inmMp = findViewById(R.id.teMP);
         inmPhysdmg = findViewById(R.id.tePhysDMG);
@@ -36,6 +41,15 @@ public class Monsterres extends AppCompatActivity {
         samMgcdef = findViewById(R.id.daMgcDEF);
         samName = findViewById(R.id.daName);
         samDes = findViewById(R.id.daDes);
+
+        //ImageView
+        s1 = findViewById(R.id.monim1);
+        s2 = findViewById(R.id.monim2);
+        s3 = findViewById(R.id.monim3);
+        s4 = findViewById(R.id.monim4);
+        s5 = findViewById(R.id.monim5);
+        s6 = findViewById(R.id.monim6);
+
 
         //GetIntent
         yesmLevel = getIntent().getStringExtra("mLevel");
@@ -58,6 +72,8 @@ public class Monsterres extends AppCompatActivity {
         samPhysdef.setText(yesmPhysdef);
         samMgcdef.setText(yesmMgcdef);
         samDes.setText(yesmDes);
+
+        onemonpic = findViewById(R.id.Mononeim);
 
 
 

@@ -54,7 +54,7 @@ public class Monsterfillup extends AppCompatActivity {
                 imDes = brambleback.getDescription();
                 imName = brambleback.getMonsterName();
 
-                Intent inmon1 = new Intent(Monsterfillup.this, Monsterres.class);
+                Intent inmon1 = new Intent(Monsterfillup.this, XMonone.class);
                 inmon1.putExtra("mHPres", imHP);
                 inmon1.putExtra("mMPres", imMP);
                 inmon1.putExtra("mLevel", imLevel);
@@ -97,7 +97,7 @@ public class Monsterfillup extends AppCompatActivity {
                 imName = sentinel.getMonsterName();
 
 
-                Intent inmon2 = new Intent(Monsterfillup.this, Monsterres.class);
+                Intent inmon2 = new Intent(Monsterfillup.this, XMontwo.class);
                 inmon2.putExtra("mHPres", imHP);
                 inmon2.putExtra("mMPres", imMP);
                 inmon2.putExtra("mLevel", imLevel);
@@ -137,7 +137,7 @@ public class Monsterfillup extends AppCompatActivity {
                 imDes = baron.getDescription();
                 imName = baron.getMonsterName();
 
-                Intent inmon3 = new Intent(Monsterfillup.this, Monsterres.class);
+                Intent inmon3 = new Intent(Monsterfillup.this, XMonthree.class);
                 inmon3.putExtra("mHPres", imHP);
                 inmon3.putExtra("mMPres", imMP);
                 inmon3.putExtra("mLevel", imLevel);
@@ -177,7 +177,7 @@ public class Monsterfillup extends AppCompatActivity {
                 imDes = drake.getDescription();
                 imName = drake.getMonsterName();
 
-                Intent inmon4 = new Intent(Monsterfillup.this, Monsterres.class);
+                Intent inmon4 = new Intent(Monsterfillup.this, XMonfour.class);
                 inmon4.putExtra("mHPres", imHP);
                 inmon4.putExtra("mMPres", imMP);
                 inmon4.putExtra("mLevel", imLevel);
@@ -217,7 +217,7 @@ public class Monsterfillup extends AppCompatActivity {
                 imDes = gromp.getDescription();
                 imName = gromp.getMonsterName();
 
-                Intent inmon5 = new Intent(Monsterfillup.this, Monsterres.class);
+                Intent inmon5 = new Intent(Monsterfillup.this, XMonfive.class);
                 inmon5.putExtra("mHPres", imHP);
                 inmon5.putExtra("mMPres", imMP);
                 inmon5.putExtra("mLevel", imLevel);

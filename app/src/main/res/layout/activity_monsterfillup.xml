@@ -8,53 +8,53 @@
     tools:context=".Monsterfillup">
 
     <ImageView
-        android:id="@+id/theMon1"
-        android:layout_width="87dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theMon2"
-        app:srcCompat="@drawable/testone" />
-
-    <ImageView
         android:id="@+id/theMon2"
-        android:layout_width="87dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="184dp"
+        android:layout_width="169dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/testone" />
+        app:srcCompat="@drawable/montwo" />
 
     <ImageView
         android:id="@+id/theMon3"
-        android:layout_width="87dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="56dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theMon2"
-        app:srcCompat="@drawable/testone" />
-
-    <ImageView
-        android:id="@+id/theMon4"
-        android:layout_width="87dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="169dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/theMon1"
-        app:srcCompat="@drawable/testone" />
+        app:srcCompat="@drawable/monthree" />
 
     <ImageView
         android:id="@+id/theMon5"
-        android:layout_width="87dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="116dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="169dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/theMon3"
-        app:srcCompat="@drawable/testone" />
+        app:srcCompat="@drawable/monfive" />
+
+    <ImageView
+        android:id="@+id/theMon4"
+        android:layout_width="169dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theMon2"
+        app:srcCompat="@drawable/monfour" />
+
+    <ImageView
+        android:id="@+id/theMon1"
+        android:layout_width="169dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

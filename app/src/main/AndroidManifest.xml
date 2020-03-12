@@ -10,7 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ZArcLight"></activity>
+        <activity android:name=".XMonfive"></activity>
+        <activity android:name=".XMonfour" />
+        <activity android:name=".XMonthree" />
+        <activity android:name=".XMontwo" />
+        <activity android:name=".XMonone" />
+        <activity android:name=".ZArcLight" />
         <activity android:name=".ZBloodMoon" />
         <activity android:name=".ZSworn" />
         <activity android:name=".ZBlossom" />
@@ -20,7 +25,6 @@
         <activity android:name=".ZDarkStar" />
         <activity android:name=".ZNightBringer" />
         <activity android:name=".ZDawnBringer" />
-        <activity android:name=".Monsterres" />
         <activity android:name=".Choosehere" />
         <activity android:name=".Herofillup" />
         <activity android:name=".Monsterfillup" />
