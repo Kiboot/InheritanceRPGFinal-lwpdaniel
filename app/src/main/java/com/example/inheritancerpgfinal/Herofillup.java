@@ -276,9 +276,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(dawnbringer.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(dawnbringer.getHeroClass());
                 iheroXP = String.valueOf(dawnbringer.getHeroXP());
-                ibaseSTR = String.valueOf(dawnbringer.strGrowthwLvl());
-                ibaseAGI = String.valueOf(dawnbringer.agiGrowthwLvl());
-                ibaseINT = String.valueOf(dawnbringer.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(dawnbringer.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(dawnbringer.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(dawnbringer.intGrowthwLvl()*100.0/100.0));
 
 
                 if(leveler<=99 && leveler>=1) {
@@ -339,9 +339,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(nightbringer.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(nightbringer.getHeroClass());
                 iheroXP = String.valueOf(nightbringer.getHeroXP());
-                ibaseSTR = String.valueOf(nightbringer.strGrowthwLvl());
-                ibaseAGI = String.valueOf(nightbringer.agiGrowthwLvl());
-                ibaseINT = String.valueOf(nightbringer.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(nightbringer.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(nightbringer.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(nightbringer.intGrowthwLvl()*100.0/100.0));
 
 
                 if(leveler<=99 && leveler>=1) {
@@ -402,9 +402,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(darkstar.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(darkstar.getHeroClass());
                 iheroXP = String.valueOf(darkstar.getHeroXP());
-                ibaseSTR = String.valueOf(darkstar.strGrowthwLvl());
-                ibaseAGI = String.valueOf(darkstar.agiGrowthwLvl());
-                ibaseINT = String.valueOf(darkstar.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(darkstar.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(darkstar.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(darkstar.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub3 = new Intent(Herofillup.this, ZDarkStar.class);
@@ -463,9 +463,10 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(cosmic.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(cosmic.getHeroClass());
                 iheroXP = String.valueOf(cosmic.getHeroXP());
-                ibaseSTR = String.valueOf(cosmic.strGrowthwLvl());
-                ibaseAGI = String.valueOf(cosmic.agiGrowthwLvl());
-                ibaseINT = String.valueOf(cosmic.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(cosmic.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(cosmic.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(cosmic.intGrowthwLvl()*100.0/100.0));
+
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub4 = new Intent(Herofillup.this, ZCosmic.class);
@@ -524,9 +525,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(chaos.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(chaos.getHeroClass());
                 iheroXP = String.valueOf(chaos.getHeroXP());
-                ibaseSTR = String.valueOf(chaos.strGrowthwLvl());
-                ibaseAGI = String.valueOf(chaos.agiGrowthwLvl());
-                ibaseINT = String.valueOf(chaos.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(chaos.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(chaos.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(chaos.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub5 = new Intent(Herofillup.this, ZChaos.class);
@@ -585,9 +586,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(orders.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(orders.getHeroClass());
                 iheroXP = String.valueOf(orders.getHeroXP());
-                ibaseSTR = String.valueOf(orders.strGrowthwLvl());
-                ibaseAGI = String.valueOf(orders.agiGrowthwLvl());
-                ibaseINT = String.valueOf(orders.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(orders.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(orders.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(orders.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub6 = new Intent(Herofillup.this, ZOrders.class);
@@ -646,9 +647,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(blossom.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(blossom.getHeroClass());
                 iheroXP = String.valueOf(blossom.getHeroXP());
-                ibaseSTR = String.valueOf(blossom.strGrowthwLvl());
-                ibaseAGI = String.valueOf(blossom.agiGrowthwLvl());
-                ibaseINT = String.valueOf(blossom.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(blossom.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(blossom.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(blossom.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub7 = new Intent(Herofillup.this, ZBlossom.class);
@@ -707,9 +708,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(sworn.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(sworn.getHeroClass());
                 iheroXP = String.valueOf(sworn.getHeroXP());
-                ibaseSTR = String.valueOf(sworn.strGrowthwLvl());
-                ibaseAGI = String.valueOf(sworn.agiGrowthwLvl());
-                ibaseINT = String.valueOf(sworn.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(sworn.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(sworn.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(sworn.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub8 = new Intent(Herofillup.this, ZSworn.class);
@@ -768,9 +769,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(bloodmoon.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(bloodmoon.getHeroClass());
                 iheroXP = String.valueOf(bloodmoon.getHeroXP());
-                ibaseSTR = String.valueOf(bloodmoon.strGrowthwLvl());
-                ibaseAGI = String.valueOf(bloodmoon.agiGrowthwLvl());
-                ibaseINT = String.valueOf(bloodmoon.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(bloodmoon.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(bloodmoon.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(bloodmoon.intGrowthwLvl()*100.0/100.0));
 
                 if(leveler<=99 && leveler>=1) {
                     Intent insub9 = new Intent(Herofillup.this, ZBloodMoon.class);
@@ -830,9 +831,9 @@ public class Herofillup extends AppCompatActivity {
                 imDef = String.valueOf(Math.round(arclight.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(arclight.getHeroClass());
                 iheroXP = String.valueOf(arclight.getHeroXP());
-                ibaseSTR = String.valueOf(arclight.strGrowthwLvl());
-                ibaseAGI = String.valueOf(arclight.agiGrowthwLvl());
-                ibaseINT = String.valueOf(arclight.intGrowthwLvl());
+                ibaseSTR = String.valueOf(Math.round(arclight.strGrowthwLvl()*100.0/100.0));
+                ibaseAGI = String.valueOf(Math.round(arclight.agiGrowthwLvl()*100.0/100.0));
+                ibaseINT = String.valueOf(Math.round(arclight.intGrowthwLvl()*100.0/100.0));
 
 
                 if(leveler<=99 && leveler>=1) {
