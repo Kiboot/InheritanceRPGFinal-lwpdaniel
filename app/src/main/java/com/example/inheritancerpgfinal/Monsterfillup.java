@@ -205,8 +205,8 @@ public class Monsterfillup extends AppCompatActivity {
                         10,
                         5,
                         10,
-                        232,
-                        152,
+                        1223,
+                        1020,
                         "Unbeatable frog",
                         "Gromp"
                 );

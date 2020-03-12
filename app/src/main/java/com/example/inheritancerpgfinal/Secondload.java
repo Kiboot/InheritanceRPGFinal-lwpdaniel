@@ -8,24 +8,27 @@ import android.os.Handler;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-    private static int SPLASH_TIME_OUT = 7000;
+public class Secondload extends AppCompatActivity {
+    private static int SPLASH_TIME_OUT = 1500;
 
-    ImageView logo;
-    TextView title;
+    ImageView logo2, logo3;
+    TextView title2, title3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_secondload);
 
-        logo = findViewById(R.id.theLogo);
-        title = findViewById(R.id.theTitle);
+        logo2 = findViewById(R.id.theLogo2);
+        title2 = findViewById(R.id.theTitle2);
+
+        logo3 = findViewById(R.id.theLogo3);
+        title3 = findViewById(R.id.theTitle3);
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent inload = new Intent(MainActivity.this, Secondload.class);
+                Intent inload = new Intent(Secondload.this, Choosehere.class);
                 startActivity(inload);
                 finish();
             }
