@@ -26,6 +26,8 @@ public class Hero extends Character {
         this.intGrowth = intGrowth;
 
     }
+
+
     //Imported Setters and Getters has a (super.set/get) in the code
 
     //Imported Setters - from Characters setters

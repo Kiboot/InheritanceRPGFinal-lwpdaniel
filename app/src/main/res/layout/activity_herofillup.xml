@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/lolwallpaper"
     tools:context=".Herofillup">
 
     <EditText
         android:id="@+id/theName"
         android:layout_width="303dp"
-        android:layout_height="45dp"
+        android:layout_height="33dp"
         android:layout_marginTop="60dp"
+        android:background="#FFF0FF"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
+        android:singleLine="false"
         android:textAlignment="center"
+        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,10 +28,12 @@
         android:layout_width="87dp"
         android:layout_height="42dp"
         android:layout_marginTop="24dp"
+        android:background="#FFF0FF"
         android:ems="10"
         android:hint="Level"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="@+id/theName"
         app:layout_constraintHorizontal_bias="0.013"
         app:layout_constraintStart_toStartOf="@+id/theName"
@@ -38,6 +44,7 @@
         android:layout_width="203dp"
         android:layout_height="42dp"
         android:layout_marginTop="24dp"
+        android:background="#FFF0FF"
         android:entries="@array/Class"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/theName"
@@ -46,103 +53,243 @@
         app:layout_constraintTop_toBottomOf="@+id/theName" />
 
     <ImageView
-        android:id="@+id/theSub4"
-        android:layout_width="138dp"
-        android:layout_height="229dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testthree" />
-
-    <ImageView
-        android:id="@+id/theSub5"
-        android:layout_width="138dp"
-        android:layout_height="229dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testthree" />
-
-    <ImageView
-        android:id="@+id/theSub1"
-        android:layout_width="138dp"
-        android:layout_height="229dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testthree" />
-
-    <ImageView
-        android:id="@+id/theSub7"
-        android:layout_width="138dp"
-        android:layout_height="229dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testthree" />
-
-    <ImageView
-        android:id="@+id/theSub9"
-        android:layout_width="138dp"
-        android:layout_height="229dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testthree" />
-
-    <ImageView
-        android:id="@+id/theSub10"
-        android:layout_width="144dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testtwo" />
-
-    <ImageView
         android:id="@+id/theSub6"
-        android:layout_width="144dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testtwo" />
-
-    <ImageView
-        android:id="@+id/theSub3"
-        android:layout_width="144dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testtwo" />
-
-    <ImageView
-        android:id="@+id/theSub8"
-        android:layout_width="144dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testtwo" />
+        app:srcCompat="@drawable/suborder" />
 
     <ImageView
         android:id="@+id/theSub2"
-        android:layout_width="144dp"
-        android:layout_height="231dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/theClass"
-        app:srcCompat="@drawable/testtwo" />
+        app:srcCompat="@drawable/subnightbringer" />
+
+    <ImageView
+        android:id="@+id/theSub3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subdarkstar" />
+
+    <ImageView
+        android:id="@+id/theSub10"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subarclight" />
+
+    <ImageView
+        android:id="@+id/theSub8"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subsworn" />
+
+    <ImageView
+        android:id="@+id/theSub1"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subdawnbringer" />
+
+    <ImageView
+        android:id="@+id/theSub4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subcosmic" />
+
+    <ImageView
+        android:id="@+id/theSub5"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subchaos" />
+
+    <ImageView
+        android:id="@+id/theSub9"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subbloodmoon" />
+
+    <ImageView
+        android:id="@+id/theSub7"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theClass"
+        app:srcCompat="@drawable/subblossom" />
+
+    <TextView
+        android:id="@+id/theName1"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Dawnbringer"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub1" />
+
+    <TextView
+        android:id="@+id/theName3"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Darkstar"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub3" />
+
+    <TextView
+        android:id="@+id/theName5"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Chaos"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub5" />
+
+    <TextView
+        android:id="@+id/theName7"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Blossom"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub7" />
+
+    <TextView
+        android:id="@+id/theName9"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Bloodmoon"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub9" />
+
+    <TextView
+        android:id="@+id/theName2"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Nightbringer"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub2" />
+
+    <TextView
+        android:id="@+id/theName4"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Cosmic"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub4" />
+
+    <TextView
+        android:id="@+id/theName6"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Orders"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub6" />
+
+    <TextView
+        android:id="@+id/theName8"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Sworn"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub8" />
+
+    <TextView
+        android:id="@+id/theName10"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="Arclight"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theSub10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

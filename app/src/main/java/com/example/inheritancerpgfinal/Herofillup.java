@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Herofillup extends AppCompatActivity {
@@ -24,6 +25,8 @@ public class Herofillup extends AppCompatActivity {
     int leveler;
 
     String ibaseHP, ibaseMP, ipAtk, imAtk, ipDef, imDef, iheroClass,iheroXP, ibaseSTR, ibaseAGI, ibaseINT;
+
+    TextView name1, name2, name3, name4, name5, name6, name7, name8, name9, name10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,18 @@ public class Herofillup extends AppCompatActivity {
         sub9su = findViewById(R.id.theSub9);
         sub10su = findViewById(R.id.theSub10);
 
+        //Names
+        name1 = findViewById(R.id.theName1);
+        name2 = findViewById(R.id.theName2);
+        name3 = findViewById(R.id.theName3);
+        name4 = findViewById(R.id.theName4);
+        name5 = findViewById(R.id.theName5);
+        name6 = findViewById(R.id.theName6);
+        name7 = findViewById(R.id.theName7);
+        name8 = findViewById(R.id.theName8);
+        name9 = findViewById(R.id.theName9);
+        name10 = findViewById(R.id.theName10);
+
         //Visibility
         sub1su.setVisibility(View.GONE);
         sub2su.setVisibility(View.GONE);
@@ -57,6 +72,18 @@ public class Herofillup extends AppCompatActivity {
         sub8su.setVisibility(View.GONE);
         sub9su.setVisibility(View.GONE);
         sub10su.setVisibility(View.GONE);
+        name1.setVisibility(View.GONE);
+        name2.setVisibility(View.GONE);
+        name3.setVisibility(View.GONE);
+        name4.setVisibility(View.GONE);
+        name5.setVisibility(View.GONE);
+        name6.setVisibility(View.GONE);
+        name7.setVisibility(View.GONE);
+        name8.setVisibility(View.GONE);
+        name9.setVisibility(View.GONE);
+        name10.setVisibility(View.GONE);
+
+
 
         classsu.setOnItemSelectedListener(
                 new AdapterView.OnItemSelectedListener() {
@@ -77,6 +104,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.GONE);
                                 sub9su.setVisibility(View.GONE);
                                 sub10su.setVisibility(View.GONE);
+                                name1.setVisibility(View.GONE);
+                                name2.setVisibility(View.GONE);
+                                name3.setVisibility(View.GONE);
+                                name4.setVisibility(View.GONE);
+                                name5.setVisibility(View.GONE);
+                                name6.setVisibility(View.GONE);
+                                name7.setVisibility(View.GONE);
+                                name8.setVisibility(View.GONE);
+                                name9.setVisibility(View.GONE);
+                                name10.setVisibility(View.GONE);
                                 break;
                             case 1:
                                 sub1su.setVisibility(View.VISIBLE);
@@ -89,6 +126,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.GONE);
                                 sub9su.setVisibility(View.GONE);
                                 sub10su.setVisibility(View.GONE);
+                                name1.setVisibility(View.VISIBLE);
+                                name2.setVisibility(View.VISIBLE);
+                                name3.setVisibility(View.GONE);
+                                name4.setVisibility(View.GONE);
+                                name5.setVisibility(View.GONE);
+                                name6.setVisibility(View.GONE);
+                                name7.setVisibility(View.GONE);
+                                name8.setVisibility(View.GONE);
+                                name9.setVisibility(View.GONE);
+                                name10.setVisibility(View.GONE);
 
                                 break;
                             case 2:
@@ -102,6 +149,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.GONE);
                                 sub9su.setVisibility(View.GONE);
                                 sub10su.setVisibility(View.GONE);
+                                name1.setVisibility(View.GONE);
+                                name2.setVisibility(View.GONE);
+                                name3.setVisibility(View.VISIBLE);
+                                name4.setVisibility(View.VISIBLE);
+                                name5.setVisibility(View.GONE);
+                                name6.setVisibility(View.GONE);
+                                name7.setVisibility(View.GONE);
+                                name8.setVisibility(View.GONE);
+                                name9.setVisibility(View.GONE);
+                                name10.setVisibility(View.GONE);
                                 break;
                             case 3:
                                 sub1su.setVisibility(View.GONE);
@@ -114,6 +171,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.GONE);
                                 sub9su.setVisibility(View.GONE);
                                 sub10su.setVisibility(View.GONE);
+                                name1.setVisibility(View.GONE);
+                                name2.setVisibility(View.GONE);
+                                name3.setVisibility(View.GONE);
+                                name4.setVisibility(View.GONE);
+                                name5.setVisibility(View.VISIBLE);
+                                name6.setVisibility(View.VISIBLE);
+                                name7.setVisibility(View.GONE);
+                                name8.setVisibility(View.GONE);
+                                name9.setVisibility(View.GONE);
+                                name10.setVisibility(View.GONE);
                                 break;
                             case 4:
                                 sub1su.setVisibility(View.GONE);
@@ -126,6 +193,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.VISIBLE);
                                 sub9su.setVisibility(View.GONE);
                                 sub10su.setVisibility(View.GONE);
+                                name1.setVisibility(View.GONE);
+                                name2.setVisibility(View.GONE);
+                                name3.setVisibility(View.GONE);
+                                name4.setVisibility(View.GONE);
+                                name5.setVisibility(View.GONE);
+                                name6.setVisibility(View.GONE);
+                                name7.setVisibility(View.VISIBLE);
+                                name8.setVisibility(View.VISIBLE);
+                                name9.setVisibility(View.GONE);
+                                name10.setVisibility(View.GONE);
                                 break;
                             case 5:
                                 sub1su.setVisibility(View.GONE);
@@ -138,6 +215,16 @@ public class Herofillup extends AppCompatActivity {
                                 sub8su.setVisibility(View.GONE);
                                 sub9su.setVisibility(View.VISIBLE);
                                 sub10su.setVisibility(View.VISIBLE);
+                                name1.setVisibility(View.GONE);
+                                name2.setVisibility(View.GONE);
+                                name3.setVisibility(View.GONE);
+                                name4.setVisibility(View.GONE);
+                                name5.setVisibility(View.GONE);
+                                name6.setVisibility(View.GONE);
+                                name7.setVisibility(View.GONE);
+                                name8.setVisibility(View.GONE);
+                                name9.setVisibility(View.VISIBLE);
+                                name10.setVisibility(View.VISIBLE);
                                 break;
 
 
@@ -151,6 +238,8 @@ public class Herofillup extends AppCompatActivity {
                     }
                 }
         );
+
+
 
         sub1su.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -207,6 +296,7 @@ public class Herofillup extends AppCompatActivity {
                     insub1.putExtra("baseINTres", ibaseINT);
                     insub1.putExtra("levelres", leveler);
                     insub1.putExtra("nameres", namer);
+                    insub1.putExtra("EXTRA_IMAGEVIEW_URL", R.id.theSub1);
                     startActivity(insub1);
                 }
                 else if(leveler>=100) {

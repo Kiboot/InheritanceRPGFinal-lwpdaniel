@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 public class Herores extends AppCompatActivity {
 
@@ -12,6 +13,7 @@ public class Herores extends AppCompatActivity {
 
     TextView saClass, saLevel, saHp, saMp, saPhysdmg, saMgcdmg, saPhysdef, saMgcdef, saXp, saStr, saAgi, saInt, saName;
     TextView inClass, inLevel, inHp, inMp, inPhysdmg, inMgcdmg, inPhysdef, inMgcdef, inXp, inStr, inAgi, inInt;
+
 
 
     @Override
@@ -64,7 +66,6 @@ public class Herores extends AppCompatActivity {
         yesInt = getIntent().getStringExtra("baseINTres");
         yesName = getIntent().getStringExtra("nameres");
 
-
         //Set text
         saClass.setText(yesClass);
         saLevel.setText(String.valueOf(yesLevel));
@@ -79,6 +80,7 @@ public class Herores extends AppCompatActivity {
         saStr.setText(yesStr);
         saAgi.setText(yesAgi);
         saInt.setText(yesInt);
+
 
     }
 }

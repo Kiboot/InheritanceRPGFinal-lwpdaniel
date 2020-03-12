@@ -4,17 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/lolwallpaper"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="346dp"
-        android:layout_height="253dp"
-        android:text="the Inheritance RPG"
-        android:textSize="69dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/theLogo"
+        android:layout_width="171dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="172dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
+    <TextView
+        android:id="@+id/theTitle"
+        android:layout_width="261dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/frizquadrata"
+        android:text="The Inheritance RPG®"
+        android:textColor="#e9dda2"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/theLogo"
+        app:layout_constraintStart_toStartOf="@+id/theLogo"
+        app:layout_constraintTop_toBottomOf="@+id/theLogo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
