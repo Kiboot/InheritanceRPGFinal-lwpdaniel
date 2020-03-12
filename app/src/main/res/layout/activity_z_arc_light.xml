@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lolwallpaper"
+    tools:context=".ZArcLight">
+
+    <TextView
+        android:id="@+id/AngHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputhp"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ALImage" />
+
+    <TextView
+        android:id="@+id/AngPhysDMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputphysdmg"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngMP" />
+
+    <TextView
+        android:id="@+id/AngPhysDEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputphysdef"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngMgcDMG" />
+
+    <TextView
+        android:id="@+id/AngXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputxp"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngMgcDEF" />
+
+    <TextView
+        android:id="@+id/AngMgcDMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputmgcdmg"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngPhysDMG" />
+
+    <TextView
+        android:id="@+id/AngMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputmp"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngHP" />
+
+    <TextView
+        android:id="@+id/tMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="MP"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaMp"
+        app:layout_constraintTop_toBottomOf="@+id/tHP" />
+
+    <TextView
+        android:id="@+id/AngMgcDEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputmgcdef"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngPhysDEF" />
+
+    <TextView
+        android:id="@+id/AngAGI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputagi"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngSTR" />
+
+    <TextView
+        android:id="@+id/tXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="XP"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaXp"
+        app:layout_constraintTop_toBottomOf="@+id/tMgcDEF" />
+
+    <TextView
+        android:id="@+id/tPhysDMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Phys DMG"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaAtk"
+        app:layout_constraintTop_toBottomOf="@+id/tMP" />
+
+    <TextView
+        android:id="@+id/tMgcDMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Mgc DMG"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaMgc"
+        app:layout_constraintTop_toBottomOf="@+id/tPhysDMG" />
+
+    <TextView
+        android:id="@+id/tSTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Strength"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaStr"
+        app:layout_constraintTop_toBottomOf="@+id/tXP" />
+
+    <TextView
+        android:id="@+id/AngINT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputint"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngAGI" />
+
+    <TextView
+        android:id="@+id/tMgcDEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Magic DEF"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaMgcdef"
+        app:layout_constraintTop_toBottomOf="@+id/tPhysDEF" />
+
+    <TextView
+        android:id="@+id/tAGI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Agility"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaAgi"
+        app:layout_constraintTop_toBottomOf="@+id/tSTR" />
+
+    <TextView
+        android:id="@+id/tHP"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="52dp"
+        android:text="HP"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaHp"
+        app:layout_constraintTop_toBottomOf="@+id/ALImage" />
+
+    <TextView
+        android:id="@+id/tPhysDEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Physical DEF"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaDef"
+        app:layout_constraintTop_toBottomOf="@+id/tMgcDMG" />
+
+    <TextView
+        android:id="@+id/tINT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="Intelligence"
+        android:textColor="#e9dda2"
+        app:layout_constraintStart_toEndOf="@+id/imaInt"
+        app:layout_constraintTop_toBottomOf="@+id/tAGI" />
+
+    <TextView
+        android:id="@+id/AngSTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="outputstr"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngXP" />
+
+    <TextView
+        android:id="@+id/AngName"
+        android:layout_width="139dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="52dp"
+        android:text="Don Daniel Balabag"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AngClass"
+        android:layout_width="139dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:text="outputclass"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngName" />
+
+    <TextView
+        android:id="@+id/AngLevel"
+        android:layout_width="139dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:text="outputlevel"
+        android:textAlignment="center"
+        android:textColor="#e9dda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AngClass" />
+
+    <ImageView
+        android:id="@+id/ALImage"
+        android:layout_width="201dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/subarclight" />
+
+    <ImageView
+        android:id="@+id/imaHp"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ALImage"
+        app:srcCompat="@drawable/hp" />
+
+    <ImageView
+        android:id="@+id/imaMp"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaHp"
+        app:srcCompat="@drawable/mp" />
+
+    <ImageView
+        android:id="@+id/imaAtk"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaMp"
+        app:srcCompat="@drawable/atk" />
+
+    <ImageView
+        android:id="@+id/imaMgc"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaAtk"
+        app:srcCompat="@drawable/mgcatk" />
+
+    <ImageView
+        android:id="@+id/imaDef"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaMgc"
+        app:srcCompat="@drawable/def" />
+
+    <ImageView
+        android:id="@+id/imaMgcdef"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaDef"
+        app:srcCompat="@drawable/mgcdef" />
+
+    <ImageView
+        android:id="@+id/imaXp"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaMgcdef"
+        app:srcCompat="@drawable/xp" />
+
+    <ImageView
+        android:id="@+id/imaStr"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaXp"
+        app:srcCompat="@drawable/strs" />
+
+    <ImageView
+        android:id="@+id/imaAgi"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaStr"
+        app:srcCompat="@drawable/agis" />
+
+    <ImageView
+        android:id="@+id/imaInt"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imaAgi"
+        app:srcCompat="@drawable/ints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

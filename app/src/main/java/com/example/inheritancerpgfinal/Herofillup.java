@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -282,7 +281,7 @@ public class Herofillup extends AppCompatActivity {
 
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub1 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub1 = new Intent(Herofillup.this, ZDawnBringer.class);
                     insub1.putExtra("baseHPres", ibaseHP);
                     insub1.putExtra("baseMPres", ibaseMP);
                     insub1.putExtra("pAtkres", ipAtk);
@@ -296,7 +295,6 @@ public class Herofillup extends AppCompatActivity {
                     insub1.putExtra("baseINTres", ibaseINT);
                     insub1.putExtra("levelres", leveler);
                     insub1.putExtra("nameres", namer);
-                    insub1.putExtra("EXTRA_IMAGEVIEW_URL", R.id.theSub1);
                     startActivity(insub1);
                 }
                 else if(leveler>=100) {
@@ -346,7 +344,7 @@ public class Herofillup extends AppCompatActivity {
 
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub2 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub2 = new Intent(Herofillup.this, ZNightBringer.class);
                     insub2.putExtra("baseHPres", ibaseHP);
                     insub2.putExtra("baseMPres", ibaseMP);
                     insub2.putExtra("pAtkres", ipAtk);
@@ -408,7 +406,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(darkstar.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub3 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub3 = new Intent(Herofillup.this, ZDarkStar.class);
                     insub3.putExtra("baseHPres", ibaseHP);
                     insub3.putExtra("baseMPres", ibaseMP);
                     insub3.putExtra("pAtkres", ipAtk);
@@ -469,7 +467,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(cosmic.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub4 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub4 = new Intent(Herofillup.this, ZCosmic.class);
                     insub4.putExtra("baseHPres", ibaseHP);
                     insub4.putExtra("baseMPres", ibaseMP);
                     insub4.putExtra("pAtkres", ipAtk);
@@ -530,7 +528,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(chaos.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub5 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub5 = new Intent(Herofillup.this, ZChaos.class);
                     insub5.putExtra("baseHPres", ibaseHP);
                     insub5.putExtra("baseMPres", ibaseMP);
                     insub5.putExtra("pAtkres", ipAtk);
@@ -591,7 +589,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(orders.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub6 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub6 = new Intent(Herofillup.this, ZOrders.class);
                     insub6.putExtra("baseHPres", ibaseHP);
                     insub6.putExtra("baseMPres", ibaseMP);
                     insub6.putExtra("pAtkres", ipAtk);
@@ -652,7 +650,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(blossom.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub7 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub7 = new Intent(Herofillup.this, ZBlossom.class);
                     insub7.putExtra("baseHPres", ibaseHP);
                     insub7.putExtra("baseMPres", ibaseMP);
                     insub7.putExtra("pAtkres", ipAtk);
@@ -713,7 +711,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(sworn.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub8 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub8 = new Intent(Herofillup.this, ZSworn.class);
                     insub8.putExtra("baseHPres", ibaseHP);
                     insub8.putExtra("baseMPres", ibaseMP);
                     insub8.putExtra("pAtkres", ipAtk);
@@ -774,7 +772,7 @@ public class Herofillup extends AppCompatActivity {
                 ibaseINT = String.valueOf(bloodmoon.intGrowthwLvl());
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub9 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub9 = new Intent(Herofillup.this, ZBloodMoon.class);
                     insub9.putExtra("baseHPres", ibaseHP);
                     insub9.putExtra("baseMPres", ibaseMP);
                     insub9.putExtra("pAtkres", ipAtk);
@@ -837,7 +835,7 @@ public class Herofillup extends AppCompatActivity {
 
 
                 if(leveler<=99 && leveler>=1) {
-                    Intent insub10 = new Intent(Herofillup.this, Herores.class);
+                    Intent insub10 = new Intent(Herofillup.this, ZArcLight.class);
                     insub10.putExtra("baseHPres", ibaseHP);
                     insub10.putExtra("baseMPres", ibaseMP);
                     insub10.putExtra("pAtkres", ipAtk);
