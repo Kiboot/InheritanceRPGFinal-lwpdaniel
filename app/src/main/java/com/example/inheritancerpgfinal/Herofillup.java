@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.lang.Math;
 
 public class Herofillup extends AppCompatActivity {
 
@@ -267,12 +268,12 @@ public class Herofillup extends AppCompatActivity {
 
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(dawnbringer.baseHPwSTR());
-                ibaseMP = String.valueOf(dawnbringer.baseMPwINT());
-                ipAtk = String.valueOf(dawnbringer.pAtkGrowth());
-                ipDef = String.valueOf(dawnbringer.pDefGrowth());
-                imAtk = String.valueOf(dawnbringer.mAtkGrowth());
-                imDef = String.valueOf(dawnbringer.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(dawnbringer.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(dawnbringer.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(dawnbringer.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(dawnbringer.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(dawnbringer.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(dawnbringer.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(dawnbringer.getHeroClass());
                 iheroXP = String.valueOf(dawnbringer.getHeroXP());
                 ibaseSTR = String.valueOf(dawnbringer.strGrowthwLvl());
@@ -330,12 +331,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(nightbringer.baseHPwSTR());
-                ibaseMP = String.valueOf(nightbringer.baseMPwINT());
-                ipAtk = String.valueOf(nightbringer.pAtkGrowth());
-                ipDef = String.valueOf(nightbringer.pDefGrowth());
-                imAtk = String.valueOf(nightbringer.mAtkGrowth());
-                imDef = String.valueOf(nightbringer.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(nightbringer.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(nightbringer.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(nightbringer.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(nightbringer.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(nightbringer.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(nightbringer.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(nightbringer.getHeroClass());
                 iheroXP = String.valueOf(nightbringer.getHeroXP());
                 ibaseSTR = String.valueOf(nightbringer.strGrowthwLvl());
@@ -393,12 +394,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(darkstar.baseHPwSTR());
-                ibaseMP = String.valueOf(darkstar.baseMPwINT());
-                ipAtk = String.valueOf(darkstar.pAtkGrowth());
-                ipDef = String.valueOf(darkstar.pDefGrowth());
-                imAtk = String.valueOf(darkstar.mAtkGrowth());
-                imDef = String.valueOf(darkstar.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(darkstar.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(darkstar.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(darkstar.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(darkstar.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(darkstar.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(darkstar.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(darkstar.getHeroClass());
                 iheroXP = String.valueOf(darkstar.getHeroXP());
                 ibaseSTR = String.valueOf(darkstar.strGrowthwLvl());
@@ -454,12 +455,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(cosmic.baseHPwSTR());
-                ibaseMP = String.valueOf(cosmic.baseMPwINT());
-                ipAtk = String.valueOf(cosmic.pAtkGrowth());
-                ipDef = String.valueOf(cosmic.pDefGrowth());
-                imAtk = String.valueOf(cosmic.mAtkGrowth());
-                imDef = String.valueOf(cosmic.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(cosmic.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(cosmic.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(cosmic.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(cosmic.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(cosmic.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(cosmic.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(cosmic.getHeroClass());
                 iheroXP = String.valueOf(cosmic.getHeroXP());
                 ibaseSTR = String.valueOf(cosmic.strGrowthwLvl());
@@ -515,12 +516,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(chaos.baseHPwSTR());
-                ibaseMP = String.valueOf(chaos.baseMPwINT());
-                ipAtk = String.valueOf(chaos.pAtkGrowth());
-                ipDef = String.valueOf(chaos.pDefGrowth());
-                imAtk = String.valueOf(chaos.mAtkGrowth());
-                imDef = String.valueOf(chaos.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(chaos.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(chaos.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(chaos.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(chaos.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(chaos.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(chaos.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(chaos.getHeroClass());
                 iheroXP = String.valueOf(chaos.getHeroXP());
                 ibaseSTR = String.valueOf(chaos.strGrowthwLvl());
@@ -576,12 +577,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(orders.baseHPwSTR());
-                ibaseMP = String.valueOf(orders.baseMPwINT());
-                ipAtk = String.valueOf(orders.pAtkGrowth());
-                ipDef = String.valueOf(orders.pDefGrowth());
-                imAtk = String.valueOf(orders.mAtkGrowth());
-                imDef = String.valueOf(orders.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(orders.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(orders.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(orders.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(orders.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(orders.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(orders.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(orders.getHeroClass());
                 iheroXP = String.valueOf(orders.getHeroXP());
                 ibaseSTR = String.valueOf(orders.strGrowthwLvl());
@@ -637,12 +638,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(blossom.baseHPwSTR());
-                ibaseMP = String.valueOf(blossom.baseMPwINT());
-                ipAtk = String.valueOf(blossom.pAtkGrowth());
-                ipDef = String.valueOf(blossom.pDefGrowth());
-                imAtk = String.valueOf(blossom.mAtkGrowth());
-                imDef = String.valueOf(blossom.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(blossom.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(blossom.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(blossom.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(blossom.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(blossom.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(blossom.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(blossom.getHeroClass());
                 iheroXP = String.valueOf(blossom.getHeroXP());
                 ibaseSTR = String.valueOf(blossom.strGrowthwLvl());
@@ -698,12 +699,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(sworn.baseHPwSTR());
-                ibaseMP = String.valueOf(sworn.baseMPwINT());
-                ipAtk = String.valueOf(sworn.pAtkGrowth());
-                ipDef = String.valueOf(sworn.pDefGrowth());
-                imAtk = String.valueOf(sworn.mAtkGrowth());
-                imDef = String.valueOf(sworn.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(sworn.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(sworn.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(sworn.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(sworn.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(sworn.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(sworn.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(sworn.getHeroClass());
                 iheroXP = String.valueOf(sworn.getHeroXP());
                 ibaseSTR = String.valueOf(sworn.strGrowthwLvl());
@@ -759,12 +760,12 @@ public class Herofillup extends AppCompatActivity {
                 );
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(bloodmoon.baseHPwSTR());
-                ibaseMP = String.valueOf(bloodmoon.baseMPwINT());
-                ipAtk = String.valueOf(bloodmoon.pAtkGrowth());
-                ipDef = String.valueOf(bloodmoon.pDefGrowth());
-                imAtk = String.valueOf(bloodmoon.mAtkGrowth());
-                imDef = String.valueOf(bloodmoon.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(bloodmoon.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(bloodmoon.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(bloodmoon.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(bloodmoon.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(bloodmoon.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(bloodmoon.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(bloodmoon.getHeroClass());
                 iheroXP = String.valueOf(bloodmoon.getHeroXP());
                 ibaseSTR = String.valueOf(bloodmoon.strGrowthwLvl());
@@ -821,12 +822,12 @@ public class Herofillup extends AppCompatActivity {
 
 
                 namer = String.valueOf(namesu.getText());
-                ibaseHP = String.valueOf(arclight.baseHPwSTR());
-                ibaseMP = String.valueOf(arclight.baseMPwINT());
-                ipAtk = String.valueOf(arclight.pAtkGrowth());
-                ipDef = String.valueOf(arclight.pDefGrowth());
-                imAtk = String.valueOf(arclight.mAtkGrowth());
-                imDef = String.valueOf(arclight.mDefGrowth());
+                ibaseHP = String.valueOf(Math.round(arclight.baseHPwSTR()*100.0/100.0));
+                ibaseMP = String.valueOf(Math.round(arclight.baseMPwINT()*100.0/100.0));
+                ipAtk = String.valueOf(Math.round(arclight.pAtkGrowth()*100.0/100.0));
+                ipDef = String.valueOf(Math.round(arclight.pDefGrowth()*100.0/100.0));
+                imAtk = String.valueOf(Math.round(arclight.mAtkGrowth()*100.0/100.0));
+                imDef = String.valueOf(Math.round(arclight.mDefGrowth()*100.0/100.0));
                 iheroClass = String.valueOf(arclight.getHeroClass());
                 iheroXP = String.valueOf(arclight.getHeroXP());
                 ibaseSTR = String.valueOf(arclight.strGrowthwLvl());

@@ -62,6 +62,7 @@ public class Monsterfillup extends AppCompatActivity {
                 inmon1.putExtra("mPdefres", imPdef);
                 inmon1.putExtra("mMatkres", imMatk);
                 inmon1.putExtra("mMdefres", imMdef);
+                inmon1.putExtra("mDesres", imDes);
                 inmon1.putExtra("mName", imName);
                 startActivity(inmon1);
 
@@ -105,6 +106,7 @@ public class Monsterfillup extends AppCompatActivity {
                 inmon2.putExtra("mPdefres", imPdef);
                 inmon2.putExtra("mMatkres", imMatk);
                 inmon2.putExtra("mMdefres", imMdef);
+                inmon2.putExtra("mDesres", imDes);
                 inmon2.putExtra("mName", imName);
                 startActivity(inmon2);
 
@@ -145,6 +147,7 @@ public class Monsterfillup extends AppCompatActivity {
                 inmon3.putExtra("mPdefres", imPdef);
                 inmon3.putExtra("mMatkres", imMatk);
                 inmon3.putExtra("mMdefres", imMdef);
+                inmon3.putExtra("mDesres", imDes);
                 inmon3.putExtra("mName", imName);
                 startActivity(inmon3);
 
@@ -185,6 +188,7 @@ public class Monsterfillup extends AppCompatActivity {
                 inmon4.putExtra("mPdefres", imPdef);
                 inmon4.putExtra("mMatkres", imMatk);
                 inmon4.putExtra("mMdefres", imMdef);
+                inmon4.putExtra("mDesres", imDes);
                 inmon4.putExtra("mName", imName);
                 startActivity(inmon4);
 
