@@ -29,7 +29,6 @@
         <activity android:name=".Choosehere" />
         <activity android:name=".Herofillup" />
         <activity android:name=".Monsterfillup" />
-        <activity android:name=".Choosehere" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
